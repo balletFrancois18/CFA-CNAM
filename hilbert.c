@@ -16,9 +16,9 @@ int main(void) {
 
     /* construire et afficher la matrice de Hilbert */
     printf("Matrice de Hilbert d'ordre %d :\n", n);
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            double aij = 1.0 / (i + j + 1.0);
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= n; ++j) {
+            double aij = 1.0 / (i + j + 1.0); //Calcul de la matrice
             printf("%8.3f", aij);   /* largeur totale 8, 3 décimales */
         }
         putchar('\n');
