@@ -20,7 +20,7 @@ int main() {
 
     // Vérification des signes
     if (f_min * f_max > 0) {
-        printf("Il ne peut pas répondre à la question.\n");
+        printf("Calcul impossible\n");
         return 0;
     }
 

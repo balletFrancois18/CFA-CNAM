@@ -1,0 +1,13 @@
+# --- Fichiers générés par la compilation C ---
+*.o        # fichiers objets
+a.out      # exécutable par défaut avec gcc
+*.out      # exécutables avec extension .out
+*.exe      # exécutables Windows
+*.bin      # exécutables nommés .bin
+
+# --- Répertoires pour exécutables ---
+/bin/
+/build/
+
+# --- Config VS Code ---
+.vscode/
